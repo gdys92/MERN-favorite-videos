@@ -1,0 +1,26 @@
+GET http://localhost:3000/videos
+
+### create video
+POST http://localhost:3000/videos
+Content-Type: application/json
+
+{
+  "title": "¿Qué es React.js y cómo funciona?",
+  "url": "https://www.youtube.com/watch?v=lWQ69WX7-hA"
+}
+
+### GET VIDEO
+GET http://localhost:3000/videos/6001b8fcb651ee16c4fe79c3
+
+### DELETE VIDEO
+DELETE http://localhost:3000/videos/6001b8fcb651ee16c4fe79c3
+
+### UPDATE
+PUT http://localhost:3000/videos/6001b8fcb651ee16c4fe79c3
+Content-Type: application/json
+
+{
+  "title": "Updated"
+}
+
+
