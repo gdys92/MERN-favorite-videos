@@ -1,9 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+
+import "bootswatch/dist/pulse/bootstrap.min.css";
+import "react-toastify/dist/ReactToastify.css";
+/*import 'animate.css/animate.min.css';  */
+import "./index.css";
 
 import Navbar from "./components/Navbar/Navbar";
 import VideoList from "./components/Videos/VideoList";
