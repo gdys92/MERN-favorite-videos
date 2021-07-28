@@ -26,7 +26,7 @@ const VideoForm = () => {
   const getVideo = async (id: string) => {
     const res = await videoService.getVideoById(id);
     const { title, description, url } = res.data;
-    setVideo({ title, description, url })
+    setVideo({ title, description, url });
   };
 
   useEffect(() => {
