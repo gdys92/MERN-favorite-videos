@@ -12,7 +12,7 @@ export const getVideoById = async (id: string) => {
 };
 
 export const createNewVideo = async (video: Video) => {
-  return await axios.post(`${API}/videos`, video);
+  return await axios.post(`${API}/videos`, video); 
 };
 
 export const deleteVideoById = async (id: string) => {
