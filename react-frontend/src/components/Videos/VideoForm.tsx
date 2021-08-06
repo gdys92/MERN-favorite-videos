@@ -92,7 +92,7 @@ const VideoForm = () => {
               {params.id ? (
                 <button className="btn btn-info">Update</button>
               ) : (
-                <button className="btn btn-primary">Creat</button>
+                <button className="btn btn-primary">Create</button>
               )}
             </form>
           </div>
