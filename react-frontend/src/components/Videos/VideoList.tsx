@@ -25,7 +25,7 @@ const VideoList = () => {
     setLoading(false);
   };
 
-  useEffect(() => {
+  useEffect(() => 
     loadVideos();
   }, []);
 
