@@ -23,7 +23,7 @@ const Navbar = () => {
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
               <Link className="nav-link" to="/new-video">
-                Create a New Vide
+                Create a New Video
               </Link>
             </li>
           </ul>
