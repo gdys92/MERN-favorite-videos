@@ -23,4 +23,4 @@ const videoSchema = new Schema(
   }
 );
 
-export default model("Video", videoSchema)
+export default model("Video", videoSchema);
