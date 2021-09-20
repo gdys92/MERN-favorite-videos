@@ -34,7 +34,7 @@ const VideoList = () => {
       <div className="row">
         <div className="col-md-12 my-auto">
           <div className="spinner-grow text-primary" role="status">
-            <span className="sr-only">Loadin...</span>
+            <span className="sr-only">Loading...</span>
           </div>
         </div>
       </div>
